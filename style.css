@@ -5,7 +5,7 @@
     --black: rgb(6, 6, 6);
     --dark-gray: rgb(29, 29, 29);
     --green: green;
-    --red: red;
+    --red: #b90000;
 }
 
 body {
@@ -47,6 +47,10 @@ body {
     background-color: var(--dark-gray);
 }
 
+.button:active {
+    opacity: .6;
+}
+
 .button > img {
     width: 50%;
     height: 50%;
@@ -54,4 +58,8 @@ body {
 
 .c {
     color: var(--red);
+}
+
+.equal {
+    background-color: var(--green);
 }
